@@ -4,6 +4,8 @@
 //
 //=============================================================================
 
+import {ConnectionConfig, ConnectionOptions} from "tedious";
+
 /**
  * An event received from or being sent to a source.
  */
