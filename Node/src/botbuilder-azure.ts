@@ -36,6 +36,7 @@ import { AzureBotStorage } from './AzureBotStorage';
 import { AzureTableClient } from './AzureTableClient';
 import { DocumentDbClient } from './DocumentDbClient';
 import { AzureSqlClient } from './AzureSqlClient';
+import {ConnectionOptions, ConnectionConfig} from "tedious";
 
 declare var exports: any;
 

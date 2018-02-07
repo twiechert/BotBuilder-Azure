@@ -1,0 +1,40 @@
+{
+  "name": "botbuilder-azure",
+  "version": "3.0.4",
+  "description": "Bot Builder SDK Azure Extensions",
+  "keywords": [
+    "botbuilder",
+    "bots",
+    "chatbots",
+    "azure"
+  ],
+  "author": "Microsoft Corp.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Microsoft/BotBuilder-Azure/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/BotBuilder-Azure.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./Node/lib/botbuilder-azure.js",
+  "typings": "./Node/lib/botbuilder-azure.d.ts",
+  "dependencies": {
+    "async": "^2.1.2",
+    "azure-storage": "^2.6.0",
+    "botbuilder": "^3.11.0",
+    "documentdb": "^1.13.0",
+    "promise": "^7.1.1",
+    "tedious": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.44",
+    "@types/documentdb": "0.0.33",
+    "@types/node": "^6.0.90",
+    "@types/promise": "^7.1.30",
+    "@types/tedious": "^1.8.31"
+  }
+}
